@@ -79,9 +79,7 @@ export default function Serve({refUser}) {
         <div className="w-auto position-relative">
           <video
             className="mt-5"
-            loop
             playsInline // Add playsInline attribute here
-            autoPlay
             ref={videoRef}
             thumb={thumb}
             style={{ maxHeight: "100%", width: "100%" }}

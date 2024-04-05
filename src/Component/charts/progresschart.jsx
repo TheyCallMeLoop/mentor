@@ -30,7 +30,7 @@ const Progresschart = () => {
         offsetY: 0,
         height: 200,
       },
-      colors: ["  #2C3093", "#076538", "#F45531", "#3CA4DE"], // Custom colors for the chart
+      colors: ["#2C3093", "#076538", "#F45531", "#3CA4DE", "#7D1007"], // Custom colors for the chart
       labels: [
         "White: 80%",
         "Asian: 10%",
