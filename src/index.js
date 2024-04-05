@@ -12,7 +12,7 @@ root.render(
     <Suspense
       fallback={
         <div className="lazy_spiner">
-          <Spinner animation="grow" variant="success" />
+          <Spinner animation="grow" style={{color:'#0066f5'}} />
         </div>
       }
     >
