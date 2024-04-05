@@ -70,7 +70,7 @@ export default function Serve({refUser}) {
         </div>
       </Col>
       <Col>
-        <p className="fs_16 font_regular text_light margin_light" style={{    width: "90%"}}>
+        <p className="fs_16 font_regular text_light margin_light" style={{    width: "80%"}}>
           We serve the next generation of legal trailblazers: aspiring
           lawyers, dedicated law students, and ambitious young associates eager for 
           A Push Forward.
