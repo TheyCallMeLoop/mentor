@@ -27,17 +27,17 @@ export default function Serve({refUser}) {
     <Container ref={refUser} className="mt-5">
     <Row>
       <Col xs={12} sm={12} md={12} lg={6} xxl={6}>
-        <h3 className="font_16 font_bold text_dark">Who We Serve </h3>
+        <h3 className="font_16 font_bold text_dark text_center_res">Who We Serve </h3>
         <div className=" serve mt-5 none_diplay ">
           <div className="d-flex justify-content-end flex-column align-items-center">
             <img src={prelaw} alt="" />
             <div className="line_dots mt-3 mb-3"></div>
           </div>
           <div>
-            <h2 className="fs_18 tex_dark font_semibold ">
+            <h2 className="fs_18 tex_dark font_semibold  ">
               Pre Law Students
             </h2>
-            <p className="fs_14 text_light font_regular ">
+            <p className="fs_14 text_light font_regular  ">
               Connecting law students and mentors to elevate their skills,
               knowledge, <br />
               and achieve their legal aspirations.
@@ -70,7 +70,7 @@ export default function Serve({refUser}) {
         </div>
       </Col>
       <Col>
-        <p className="fs_16 font_regular text_light margin_light" style={{    width: "80%"}}>
+        <p className="fs_16 font_regular text_light margin_light text_center_res" style={{ width: "80%"}}>
           We serve the next generation of legal trailblazers: aspiring
           lawyers, dedicated law students, and ambitious young associates eager for 
           A Push Forward.
@@ -81,7 +81,7 @@ export default function Serve({refUser}) {
             className="mt-5"
             playsInline // Add playsInline attribute here
             ref={videoRef}
-            thumb={thumb}
+            poster={thumb} // Set the poster attribute to the URL of your thumbnail image
             style={{ maxHeight: "100%", width: "100%" }}
           >
             <source src={video} type="video/mp4"></source>

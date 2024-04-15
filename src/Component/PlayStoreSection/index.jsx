@@ -2,9 +2,9 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import phoneImg from "../../assets/images/mobileView.svg";
 
-export default function PlaystoreSection() {
+export default function PlaystoreSection({refUser}) {
   return (
-    <Container style={{ marginTop: "5rem" }}>
+    <Container  style={{ marginTop: "5rem" }}>
     <Row>
       <Col lg={6} xxl={6}>
         <div className="d-flex gap-5  ">

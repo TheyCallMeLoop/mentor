@@ -31,6 +31,8 @@ const Index = () => {
   const sectionRef2 = useRef(null);
   const sectionRef3 = useRef(null);
   const sectionRef4 = useRef(null);
+  const sectionRef5 = useRef(null);
+
 
 
   useEffect(() => {
@@ -52,6 +54,9 @@ const Index = () => {
         case "faq":
           targetRef = sectionRef4;
           break;
+          case "download":
+            targetRef = sectionRef5;
+            break;
         default:
 
           // Handle default case or error condition
@@ -128,7 +133,7 @@ const Index = () => {
 
       <MentorSection refUser={sectionRef3} />
 
-      <h1 className="fs-48 download_text text_primary font_bold text-center mt-5">
+      <h1 ref={sectionRef5} className="fs-48 download_text text_primary font_bold text-center mt-5">
         Download Mobile App
       </h1>
       <p className="text-center fs_16  text_light_grey font_medium mt-2">
@@ -151,7 +156,7 @@ const Index = () => {
         </button>
       </div>
 
-      <PlaystoreSection />
+      <PlaystoreSection  />
 
       <h1 className="font_bold fs_32  text-center mt-5">
         Frequently Asked Questions

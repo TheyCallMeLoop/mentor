@@ -36,8 +36,8 @@ const Header = () => {
               <Nav.Link onClick={()=> handladSerchParams('faq')}>FAQs</Nav.Link>
             </Nav>
            
-            <div className="d-flex mt-3 justify-content-start align-items-start gap-3">
-              <button    className="black_btn_play_trans">
+            <div className="d-flex mt-3 justify-content-center align-items-center gap-3">
+              <button    className="black_btn_play_trans" onClick={()=> handladSerchParams('download')}>
                 <img src={apple} alt="" />
                 <div>
                   <p className="text_white fs_8 font_semibold ">
@@ -46,7 +46,7 @@ const Header = () => {
                   <p className="text_white fs_12 font_medium ">App Store</p>
                 </div>
               </button>
-              <button className="black_btn_play_trans">
+              <button className="black_btn_play_trans" onClick={()=> handladSerchParams('download')}>
                 <img src={google} alt="" />
                 <div>
                   <p className="text_white fs_8 font_semibold ">

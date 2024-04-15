@@ -1818,6 +1818,11 @@ tr {
   .display{
     display: none;
   }
+
+  .text_center_res{
+    text-align: center !important;
+    width: 100% !important;
+  }
 }
 
 .swiper_absolute {
@@ -1933,5 +1938,9 @@ tr {
 
   .display{
     display: none;
+  }
+
+  .text_center_res{
+    text-align: center !important;
   }
 }
